@@ -9,7 +9,7 @@ const server = http.createServer(app);
 dotenv.config();
 
 app.use(cors({
-    origin: '*', // allow your frontend URLs
+    origin: 'https://meetme-flame.vercel.app', // allow your frontend URLs
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
 }));
